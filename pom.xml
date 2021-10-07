@@ -7,18 +7,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>no.kobler</groupId>
-  <artifactId>kobly</artifactId>
+  <artifactId>bidder</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Kobly</name>
+  <name>Bidder</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <dropwizard.version>2.0.21</dropwizard.version>
     <kotlin.version>1.4.32</kotlin.version>
-    <mainClass>no.kobler.kobly.KoblyApplication</mainClass>
+    <mainClass>no.kobler.bidder.BidderApplication</mainClass>
   </properties>
 
   <dependencyManagement>

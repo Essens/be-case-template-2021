@@ -1,13 +1,12 @@
-package no.kobler.kobly;
+package no.kobler.bidder;
 
 import io.dropwizard.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.db.DataSourceFactory;
 import javax.validation.Valid;
-import org.hibernate.validator.constraints.*;
 import javax.validation.constraints.*;
 
-public class KoblyConfiguration extends Configuration {
+public class BidderConfiguration extends Configuration {
   @Valid
   @NotNull
   private DataSourceFactory database = new DataSourceFactory();

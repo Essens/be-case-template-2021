@@ -1,8 +1,8 @@
-package no.kobler.kobly.core
+package no.kobler.bidder.core
 
 import java.util.Optional
 
-class UrlShortener {
+class BidderService {
     fun shorten(url: String?): String {
         return ""
     }
