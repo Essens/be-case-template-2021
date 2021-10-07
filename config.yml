@@ -1,0 +1,12 @@
+logging:
+  level: INFO
+  loggers:
+    no.kobler: DEBUG
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: postgres
+  url: jdbc:postgresql://postgres/postgres
+  properties:
+    charSet: UTF-8
